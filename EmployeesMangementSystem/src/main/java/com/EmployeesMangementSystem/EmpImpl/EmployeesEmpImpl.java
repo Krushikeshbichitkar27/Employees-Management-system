@@ -19,7 +19,7 @@ public class EmployeesEmpImpl implements EmployeesEmp {
 		// TODO Auto-generated method stub
 		// creating employees object
 		Employees ss = new Employees();
-		// input the details of student
+		// input the details of Employees
 		System.out.println("Enter the Employee id :");
 		ss.setEmpId(sc.nextInt());
 		System.out.println("Enter the Employee name :");
@@ -37,7 +37,7 @@ public class EmployeesEmpImpl implements EmployeesEmp {
 		// TODO Auto-generated method stub
 		boolean status = false;
 		Employees edel = null;
-		// finding the student
+		// finding the employees
 		for (Employees e : eList) {
 			if (e.getEmpId() == Empid)
 				edel = e;
